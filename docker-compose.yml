@@ -1,19 +1,21 @@
 version: '3.8'
 
 services:
+  # Banco de Dados
   mongodb:
-    image: mongo:latest
+    image: mongo:7.0
     container_name: wec_mongodb
     ports:
       - "27017:27017"
     volumes:
-      - mongo_data:/data/db
+      - mongodb_data:/data/db
     restart: unless-stopped
     networks:
       - wec_network
 
+  # Cache e Backplane do SignalR
   redis:
-    image: redis:alpine
+    image: redis:7.2-alpine
     container_name: wec_redis
     ports:
       - "6379:6379"
@@ -21,14 +23,14 @@ services:
     networks:
       - wec_network
 
-  # Placeholder para a API (.NET 8)
-  # backend:
+  # [PLACEHOLDER] API Backend (.NET 8)
+  # api:
   #   build:
   #     context: ./src/backend
   #     dockerfile: Dockerfile
-  #   container_name: wec_backend
+  #   container_name: wec_api
   #   ports:
-  #     - "8080:8080"
+  #     - "5000:8080"
   #   environment:
   #     - ConnectionStrings__MongoDb=mongodb://mongodb:27017
   #     - ConnectionStrings__Redis=redis:6379
@@ -38,16 +40,16 @@ services:
   #   networks:
   #     - wec_network
 
-  # Placeholder para o Client (Vue.js 3)
-  # frontend:
+  # [PLACEHOLDER] Client Frontend (Vue 3)
+  # client:
   #   build:
   #     context: ./src/frontend
   #     dockerfile: Dockerfile
-  #   container_name: wec_frontend
+  #   container_name: wec_client
   #   ports:
-  #     - "80:80"
+  #     - "8080:80"
   #   depends_on:
-  #     - backend
+  #     - api
   #   networks:
   #     - wec_network
 
@@ -56,4 +58,4 @@ networks:
     driver: bridge
 
 volumes:
-  mongo_data:
+  mongodb_data:

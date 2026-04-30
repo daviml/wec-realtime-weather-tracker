@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="WecWeatherTracker.Api/WecWeatherTracker.Api.csproj" />
+  <Project Path="WecWeatherTracker.Application/WecWeatherTracker.Application.csproj" />
+  <Project Path="WecWeatherTracker.Domain/WecWeatherTracker.Domain.csproj" />
+  <Project Path="WecWeatherTracker.Infrastructure/WecWeatherTracker.Infrastructure.csproj" />
+</Solution>
