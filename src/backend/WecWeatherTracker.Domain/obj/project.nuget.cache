@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xZknnoyzlRQ=",
+  "dgSpecHash": "wWrLfNi+UyY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj",
+  "projectFilePath": "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
