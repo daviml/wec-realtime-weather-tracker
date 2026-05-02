@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vscode/
+.vs/
+*.local
+.eslintcache
+.stylelintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.git
+.gitignore

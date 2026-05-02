@@ -43,18 +43,19 @@ services:
     networks:
       - wec_network
 
-  # [PLACEHOLDER] Client Frontend (Vue 3)
-  # client:
-  #   build:
-  #     context: ./src/frontend
-  #     dockerfile: Dockerfile
-  #   container_name: wec_client
-  #   ports:
-  #     - "8080:80"
-  #   depends_on:
-  #     - api
-  #   networks:
-  #     - wec_network
+  client:
+    build:
+      context: ./src/frontend
+      dockerfile: Dockerfile
+    container_name: wec_client
+    ports:
+      - "8080:80"
+    environment:
+      - VITE_API_URL=http://localhost:5000
+    depends_on:
+      - api
+    networks:
+      - wec_network
 
 networks:
   wec_network:
