@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WecWeatherTracker.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f3e80dd6f2611cfde6aeddc3f95b7aa35877a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ef1ae05dadf26e71e68b6ed0662509bf657fcf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WecWeatherTracker.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WecWeatherTracker.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

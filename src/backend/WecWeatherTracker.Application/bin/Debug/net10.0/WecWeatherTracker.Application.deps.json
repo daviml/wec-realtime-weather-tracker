@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WecWeatherTracker.Application/1.0.0": {
+        "dependencies": {
+          "WecWeatherTracker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WecWeatherTracker.Application.dll": {}
+        }
+      },
+      "WecWeatherTracker.Domain/1.0.0": {
+        "runtime": {
+          "WecWeatherTracker.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WecWeatherTracker.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WecWeatherTracker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
