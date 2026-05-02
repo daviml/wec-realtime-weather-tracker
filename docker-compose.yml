@@ -23,22 +23,25 @@ services:
     networks:
       - wec_network
 
-  # [PLACEHOLDER] API Backend (.NET 8)
-  # api:
-  #   build:
-  #     context: ./src/backend
-  #     dockerfile: Dockerfile
-  #   container_name: wec_api
-  #   ports:
-  #     - "5000:8080"
-  #   environment:
-  #     - ConnectionStrings__MongoDb=mongodb://mongodb:27017
-  #     - ConnectionStrings__Redis=redis:6379
-  #   depends_on:
-  #     - mongodb
-  #     - redis
-  #   networks:
-  #     - wec_network
+  # API Backend (.NET 10)
+  api:
+    build:
+      context: ./src/backend
+      dockerfile: Dockerfile
+    container_name: wec_api
+    ports:
+      - "5000:8080"
+    environment:
+      - ConnectionStrings__MongoDB=mongodb://mongodb:27017
+      - ConnectionStrings__Redis=redis:6379
+      - MongoDB__DatabaseName=wec_weather
+      - ASPNETCORE_ENVIRONMENT=Production
+    depends_on:
+      - mongodb
+      - redis
+    restart: unless-stopped
+    networks:
+      - wec_network
 
   # [PLACEHOLDER] Client Frontend (Vue 3)
   # client:

@@ -48,3 +48,7 @@ C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\
 C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\obj\Debug\net10.0\WecWeatherTracker.Api.pdb
 C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\obj\Debug\net10.0\WecWeatherTracker.Api.genruntimeconfig.cache
 C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\obj\Debug\net10.0\ref\WecWeatherTracker.Api.dll
+C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\bin\Debug\net10.0\MessagePack.dll
+C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\bin\Debug\net10.0\MessagePack.Annotations.dll
+C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\bin\Debug\net10.0\Microsoft.AspNetCore.SignalR.StackExchangeRedis.dll
+C:\Users\davi.ladeira\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Api\bin\Debug\net10.0\Microsoft.NET.StringTools.dll
