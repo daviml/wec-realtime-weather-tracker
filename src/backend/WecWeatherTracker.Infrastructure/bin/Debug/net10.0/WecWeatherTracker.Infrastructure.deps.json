@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "WecWeatherTracker.Infrastructure/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Caching.StackExchangeRedis": "10.0.7",
           "Microsoft.Extensions.Http": "10.0.7",
           "MongoDB.Driver": "3.8.0",
           "StackExchange.Redis": "2.12.14",
@@ -22,6 +23,105 @@
           "lib/net5.0/DnsClient.dll": {
             "assemblyVersion": "1.6.1.0",
             "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Options": "10.0.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.25014"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Connections.Abstractions/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.25014"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.25014"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Common/1.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "2.3.0",
+          "Microsoft.Extensions.Options": "10.0.7",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.25014"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Core/1.2.9": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "2.3.0",
+          "Microsoft.AspNetCore.SignalR.Common": "1.2.0",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "1.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Core.dll": {
+            "assemblyVersion": "1.2.9.0",
+            "fileVersion": "1.2.9.26007"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/1.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "1.2.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.25014"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/10.0.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.726.21808"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.StackExchangeRedis/10.0.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Options": "10.0.7",
+          "StackExchange.Redis": "2.12.14"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {
+            "assemblyVersion": "10.0.7.0",
+            "fileVersion": "10.0.726.21808"
           }
         }
       },
@@ -99,6 +199,32 @@
         },
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.726.21808"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/10.0.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.726.21808"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/10.0.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.7"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.726.21808"
           }
@@ -203,6 +329,14 @@
           }
         }
       },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "runtime": {
           "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
@@ -258,6 +392,9 @@
       },
       "WecWeatherTracker.Application/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Core": "1.2.9",
+          "Microsoft.Extensions.Caching.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.7",
           "WecWeatherTracker.Domain": "1.0.0"
         },
         "runtime": {
@@ -289,6 +426,62 @@
       "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authorization/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2/aBgLqBXva/+w8pzRNY8ET43Gi+dr1gv/7ySfbsh23lTK6IAgID5MGUEa1hreNIF+0XpW4tX7QwVe70+YvaPg==",
+      "path": "microsoft.aspnetcore.authorization/2.3.0",
+      "hashPath": "microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Connections.Abstractions/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ULFSa+/L+WiAHVlIFHyg0OmHChU9Hx+K+xnt0hbIU5XmT1EGy0pNDx23QAzDtAy9jxQrTG6MX0MdvMeU4D4c7w==",
+      "path": "microsoft.aspnetcore.connections.abstractions/2.3.0",
+      "hashPath": "microsoft.aspnetcore.connections.abstractions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f10WUgcsKqrkmnz6gt8HeZ7kyKjYN30PO7cSic1lPtH7paPtnQqXPOveul/SIPI43PhRD4trttg4ywnrEmmJpA==",
+      "path": "microsoft.aspnetcore.http.features/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Common/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FZeXIaoWqe145ZPdfiptwkw/sP1BX1UD0706GNBwwoaFiKsNbLEl/Trhj2+idlp3qbX1BEwkQesKNxkopVY5Xg==",
+      "path": "microsoft.aspnetcore.signalr.common/1.2.0",
+      "hashPath": "microsoft.aspnetcore.signalr.common.1.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Core/1.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-abZMiK7Cmiitz76S9enL86j7sQ6GUC3lKAggFbiT3njvDoGClvPZCloVZgYbLW9AzhdVRTf7JYUeiJgYAYQS8Q==",
+      "path": "microsoft.aspnetcore.signalr.core/1.2.9",
+      "hashPath": "microsoft.aspnetcore.signalr.core.1.2.9.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Protocols.Json/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hNvZ7kQxp5Udqd/IFWViU35bUJvi4xnNzjkF28HRvrdrS7JNsIASTvMqArP6HLQUc3j6nlUOeShNhVmgI1wzHg==",
+      "path": "microsoft.aspnetcore.signalr.protocols.json/1.2.0",
+      "hashPath": "microsoft.aspnetcore.signalr.protocols.json.1.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/10.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pUDgQKEqNUFlerDIFRg7zzoDVRPEWIG7nR40h8Gzg8RXza4Ry0lWZ7u91bmwu3iUDCxw3Dv6TLHVFoAgY0gy7Q==",
+      "path": "microsoft.extensions.caching.abstractions/10.0.7",
+      "hashPath": "microsoft.extensions.caching.abstractions.10.0.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.StackExchangeRedis/10.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TvD0totA8qeyrZ2YeY/qRNgYBy4BvO6dG59ziJDLVnLH4s2jeLUFEFcgA3xzqPhCMMbuz9bJTRwHxkZ/7c87jQ==",
+      "path": "microsoft.extensions.caching.stackexchangeredis/10.0.7",
+      "hashPath": "microsoft.extensions.caching.stackexchangeredis.10.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/10.0.7": {
       "type": "package",
@@ -338,6 +531,20 @@
       "sha512": "sha512-uJ9JP677y+uy+C0vtaSfi7XXgFAdz8DhU3M9lwwIXDfQKcyQ0yxM9DVYa0NXDtdVTYA2eBUtVFZ8LY0GCdeE/w==",
       "path": "microsoft.extensions.diagnostics.abstractions/10.0.7",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.10.0.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/10.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-teioDgVpi8L186wUfrXQV1YuBt6lCSPmFZiMZo53+FZxHFjOV+f4GXo4LXgJ273Mku9//AdXWVjk9J7eJP6inw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/10.0.7",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.10.0.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/10.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5s8d6qC6EA8UOI4wR/+zlsq7SXttJMRb9d7zvVZ7+bE3CQEfVtC9ITUDCommm87R1zzj6WJBbCnztuIJXnP3DA==",
+      "path": "microsoft.extensions.hosting.abstractions/10.0.7",
+      "hashPath": "microsoft.extensions.hosting.abstractions.10.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Http/10.0.7": {
       "type": "package",
@@ -394,6 +601,13 @@
       "sha512": "sha512-BQ6bTaZCuSThmxS4vXu71a1jFGNMht2/+rjx2Uaw3AweIqRKFbPuyFoVsDnoLN935tvdC5OxwwAqrMY9eWBUng==",
       "path": "mongodb.driver/3.8.0",
       "hashPath": "mongodb.driver.3.8.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",

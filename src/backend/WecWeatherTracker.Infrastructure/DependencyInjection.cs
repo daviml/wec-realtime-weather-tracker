@@ -52,6 +52,13 @@ public static class DependencyInjection
         // Registra o multiplexer Redis como Singleton (recomendação oficial do StackExchange.Redis)
         services.AddSingleton<IConnectionMultiplexer>(_ =>
             ConnectionMultiplexer.Connect(redisConnection));
+
+        // Registra IDistributedCache com implementação Redis (usado pelo GetLatestWeatherUseCase)
+        services.AddStackExchangeRedisCache(options =>
+        {
+            options.Configuration = redisConnection;
+            options.InstanceName = "wec:";
+        });
     }
 
     private static void AddRepositories(this IServiceCollection services)

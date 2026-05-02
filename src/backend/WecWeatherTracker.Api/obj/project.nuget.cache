@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "n4kIEFmYKGY=",
+  "dgSpecHash": "5YSar7gi7qY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Api\\WecWeatherTracker.Api.csproj",
+  "projectFilePath": "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Api\\WecWeatherTracker.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\davim\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
-    "C:\\Users\\davim\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\10.0.7\\microsoft.extensions.caching.stackexchangeredis.10.0.7.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\mongodb.bson\\3.8.0\\mongodb.bson.3.8.0.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\mongodb.driver\\3.8.0\\mongodb.driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\stackexchange.redis\\2.12.14\\stackexchange.redis.2.12.14.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\system.io.hashing\\10.0.2\\system.io.hashing.10.0.2.nupkg.sha512",
+    "C:\\Users\\davi.ladeira\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
   "logs": []
 }
