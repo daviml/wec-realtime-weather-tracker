@@ -29,6 +29,7 @@ export const useWeatherStore = defineStore('weather', () => {
   const snapshots = ref<Record<string, WeatherSnapshot>>({})
   const isLoading = ref(false)
   const error = ref<string | null>(null)
+  const history = ref<Record<string, WeatherSnapshot[]>>({})
 
   const sortedCircuits = computed(() => {
     return [...circuits.value].sort((a, b) => a.name.localeCompare(b.name))
@@ -61,6 +62,16 @@ export const useWeatherStore = defineStore('weather', () => {
     }
   }
 
+  async function fetchHistory(circuitId: string) {
+    try {
+      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/weather/${circuitId}/history`)
+      if (!response.ok) throw new Error('Falha ao carregar histórico')
+      history.value[circuitId] = await response.json()
+    } catch (err: any) {
+      console.error(`Erro ao buscar histórico para ${circuitId}:`, err)
+    }
+  }
+
   function updateSnapshot(snapshot: WeatherSnapshot) {
     snapshots.value[snapshot.circuitId] = snapshot
   }
@@ -68,11 +79,13 @@ export const useWeatherStore = defineStore('weather', () => {
   return {
     circuits,
     snapshots,
+    history,
     isLoading,
     error,
     sortedCircuits,
     fetchCircuits,
     fetchLatestWeather,
+    fetchHistory,
     updateSnapshot
   }
 })

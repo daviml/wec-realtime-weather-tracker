@@ -1,0 +1,12 @@
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\bin\Release\net10.0\WecWeatherTracker.Domain.deps.json
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\bin\Release\net10.0\WecWeatherTracker.Domain.dll
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\bin\Release\net10.0\WecWeatherTracker.Domain.pdb
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.AssemblyInfo.cs
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.sourcelink.json
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.dll
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\refint\WecWeatherTracker.Domain.dll
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\WecWeatherTracker.Domain.pdb
+C:\Users\davim\Documents\GitHub\wec-realtime-weather-tracker\src\backend\WecWeatherTracker.Domain\obj\Release\net10.0\ref\WecWeatherTracker.Domain.dll

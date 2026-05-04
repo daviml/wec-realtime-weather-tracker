@@ -20,7 +20,9 @@ watch(() => props.snapshot, () => {
 </script>
 
 <template>
-  <div class="circuit-card" :class="{ 'is-updating': isUpdating }">
+  <div class="circuit-card glass glass-hover" 
+       :class="{ 'is-updating': isUpdating }"
+       @click="$emit('click')">
     <div class="header">
       <div class="circuit-info">
         <h3>{{ circuit.name }}</h3>
@@ -63,19 +65,16 @@ watch(() => props.snapshot, () => {
 
 <style scoped>
 .circuit-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 1rem;
   padding: 1.5rem;
-  transition: all 0.3s ease;
+  transition: var(--transition-smooth);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  border-radius: var(--border-radius-md);
 }
 
 .circuit-card:hover {
   transform: translateY(-4px);
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 0, 0, 0.3);
 }
 
 .is-updating {
@@ -104,9 +103,9 @@ h3 {
 .update-indicator {
   width: 8px;
   height: 8px;
-  background: #ff0000;
+  background: var(--color-primary);
   border-radius: 50%;
-  box-shadow: 0 0 10px #ff0000;
+  box-shadow: 0 0 10px var(--color-primary);
   animation: pulse 1s infinite;
 }
 

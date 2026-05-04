@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj": {}
+    "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj": {
+    "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj",
         "projectName": "WecWeatherTracker.Domain",
-        "projectPath": "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj",
-        "packagesPath": "C:\\Users\\davi.ladeira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davi.ladeira\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\obj\\",
+        "projectPath": "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\WecWeatherTracker.Domain.csproj",
+        "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davim\\Documents\\GitHub\\wec-realtime-weather-tracker\\src\\backend\\WecWeatherTracker.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\davi.ladeira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -45,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

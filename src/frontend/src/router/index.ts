@@ -10,6 +10,11 @@ const router = createRouter({
       component: DashboardView,
     },
     {
+      path: '/circuit/:id',
+      name: 'circuit-detail',
+      component: () => import('../views/CircuitDetailView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
